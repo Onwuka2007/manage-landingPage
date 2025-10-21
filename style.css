@@ -1,0 +1,25 @@
+body {
+  padding: 10px 80px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lists {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.get-started-btn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: hsl(12, 90%, 62%);
+  color: white;
+  border: none;
+}
+.logo {
+  margin-bottom: -15px;
+}
