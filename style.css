@@ -6,7 +6,7 @@ body {
 }
 
 .body-container {
-  padding: 30px 80px;
+  padding: 30px 100px;
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 .get-started-btn {
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: hsl(12, 90%, 62%);
+  background-color: hsl(12, 94%, 57%);
   color: white;
   border: none;
 }
@@ -41,27 +41,26 @@ body {
   height: 30px;
 }
 
-.hero{
+.hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 30px;
+  gap: 40px;
+  width: 100%;
 }
 
-.text h1{
+.text h1 {
   color: hsl(228, 39%, 23%);
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
-.sub-text p{
-  color: hsl(0, 1%, 68%);
+.sub-text p {
+  color: hsl(0, 1%, 46%);
   margin-bottom: 30px;
 }
 
-.image{
+.image {
   margin: 50px;
-}
-.sub-hero {
-  width: 40%;
 }
