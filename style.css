@@ -1,25 +1,44 @@
-body {
+body{
+  /* So the content styles never leaves the normal screen width */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.body-container {
   padding: 10px 80px;
   background-color: hsl(0, 0%, 98%);
 }
 
-nav {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.lists {
+
+.nav-links {
   display: flex;
-  list-style-type: none;
+  list-style: none;
   gap: 20px;
 }
+
+.nav-links a { 
+  text-decoration: none; /* To remove the underline when you use an a tag (for links) */
+  color: hsl(228, 39%, 23%);
+  font-weight: 500; /* The thickness of a font */
+}
+
+
 .get-started-btn {
   padding: 10px 20px;
   border-radius: 50px;
   background-color: hsl(12, 90%, 62%);
   color: white;
   border: none;
+  transition: 0.3s ease;
 }
-.logo {
-  margin-bottom: -15px;
+
+.logo img {
+  display: block;
+  height: 30px;
 }
