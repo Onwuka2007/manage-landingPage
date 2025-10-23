@@ -1,13 +1,13 @@
-body{
-  /* So the content styles never leaves the normal screen width */
+body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .body-container {
-  padding: 10px 80px;
-  background-color: hsl(0, 0%, 98%);
+  padding: 30px 80px;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
 .navbar {
@@ -22,12 +22,11 @@ body{
   gap: 20px;
 }
 
-.nav-links a { 
-  text-decoration: none; /* To remove the underline when you use an a tag (for links) */
+.nav-links a {
+  text-decoration: none;
   color: hsl(228, 39%, 23%);
-  font-weight: 500; /* The thickness of a font */
+  font-weight: 400;
 }
-
 
 .get-started-btn {
   padding: 10px 20px;
@@ -35,10 +34,34 @@ body{
   background-color: hsl(12, 90%, 62%);
   color: white;
   border: none;
-  transition: 0.3s ease;
 }
 
 .logo img {
   display: block;
   height: 30px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.text h1{
+  color: hsl(228, 39%, 23%);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.sub-text p{
+  color: hsl(0, 1%, 68%);
+  margin-bottom: 30px;
+}
+
+.image{
+  margin: 50px;
+}
+.sub-hero {
+  width: 40%;
 }
