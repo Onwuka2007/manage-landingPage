@@ -21,7 +21,7 @@ The designs were created to the following widths:
 
 - Gray 950: hsl(233, 12%, 13%)
 - Orange 50: hsl(13, 100%, 96%)
-- Gray 50: hsl(0, 0%, 98%)
+- Gray 50: hsl(0, 0%, 98%);
 
 ## Typography
 

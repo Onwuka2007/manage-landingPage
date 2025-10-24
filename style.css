@@ -9,31 +9,78 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+.body-container {
+  padding: 30px 100px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.lists {
+
+.nav-links {
   display: flex;
-  list-style-type: none;
+  list-style: none;
   gap: 20px;
 }
+<<<<<<< HEAD
 .lists li a {
+=======
+
+.nav-links a {
+>>>>>>> refs/remotes/origin/main
   text-decoration: none;
   color: hsl(228, 39%, 23%);
   font-weight: 400;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main
 .get-started-btn {
   padding: 10px 20px;
   border-radius: 50px;
-  background-color: hsl(12, 90%, 62%);
+  background-color: hsl(12, 94%, 57%);
   color: white;
   border: none;
 }
+<<<<<<< HEAD
 .logo img {
   display: block;
   height: 30px;
+=======
+
+.logo img {
+  display: block;
+  height: 30px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+
+.text h1 {
+  color: hsl(228, 39%, 23%);
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sub-text p {
+  color: hsl(0, 1%, 46%);
+  margin-bottom: 30px;
+}
+
+.image {
+  margin: 50px;
+>>>>>>> refs/remotes/origin/main
 }
 
 .hero {
