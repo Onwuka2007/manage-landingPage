@@ -14,7 +14,6 @@ body {
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
-
 .navbar {
   display: flex;
   align-items: center;
@@ -26,20 +25,13 @@ body {
   list-style: none;
   gap: 20px;
 }
-<<<<<<< HEAD
-.lists li a {
-=======
 
 .nav-links a {
->>>>>>> refs/remotes/origin/main
   text-decoration: none;
   color: hsl(228, 39%, 23%);
   font-weight: 400;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> refs/remotes/origin/main
 .get-started-btn {
   padding: 10px 20px;
   border-radius: 50px;
@@ -47,12 +39,11 @@ body {
   color: white;
   border: none;
 }
-<<<<<<< HEAD
+
 .logo img {
   display: block;
   height: 30px;
-=======
-
+}
 .logo img {
   display: block;
   height: 30px;
@@ -80,7 +71,6 @@ body {
 
 .image {
   margin: 50px;
->>>>>>> refs/remotes/origin/main
 }
 
 .hero {
